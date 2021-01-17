@@ -133,6 +133,8 @@ body{
          transition: 500ms linear;
     font-family: 'Titillium Web', sans-serif;
     font-size: 150%;
+    border-right:1px solid #fff;
+
 }
   
 /* Clear floats (clearfix hack) */
@@ -161,7 +163,9 @@ background-color: #de59e2ad;
           -o-transition: 500ms linear;
              transition: 500ms linear;
         font-family: 'Titillium Web', sans-serif;
-        font-size: 100%;
+        font-size: 100%; 
+	border-right:1px solid #fff;
+
     }
 }
 /*--------------------devfolio button-------------------*/
