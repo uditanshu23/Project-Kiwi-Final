@@ -6,13 +6,13 @@
     z-index: -1;
   }
    
-  body {
+  .faq {
     box-sizing: border-box;
     font-family: "ABeeZee", sans-serif;
     line-height: 1.48;
     font-size: 16px;
     color: #333;
-    background-image: url("footerWall.svg");
+    background-image: url("./img/footerWall.svg");
     background-repeat: no-repeat;
     background-size: cover;
   }
