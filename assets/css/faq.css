@@ -34,13 +34,11 @@
     font-size: 62px;
     font-weight: light;
     color: #ff5555;
-    padding-left: 120px;
-    padding-top: 30px;
-    margin-top: 210px;
+    text-align: center;
   }
    
   .FAQs__headline {
-    font-family: "lobster";
+    font-family: "Times New Roman";
     text-align: left;
     padding-left: 15px;
     font-size: 1.5em;
@@ -56,14 +54,14 @@
   }
    
   .FAQ {
-    font-family: "lobster";
+    font-family: "Times New Roman";
     list-style: none;
     margin: 10px 0 5px;
   }
    
   .FAQ__title {
     color: black;
-    font-family: "Fraunces";
+    font-family: "Times New Roman";
     cursor: pointer;
     font-weight: 500;
     /* background: white; */
@@ -153,17 +151,17 @@
       display: none;
     }
     .FAQ .FAQ__answer {
-      font-size: 1.49rem;
-    position: absolute;
-    background-color: whitesmoke;
-    top: 20%;
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-    left: 50%;
-    width: 50%;
-    border-left-color: #ff5555;
-    border-top-color: #f1f2f3;
-    border-radius: 1.5rem;
-    text-align: center;
+      font-size: 2rem;
+      position: absolute;
+      background-color: whitesmoke;
+      top: 49%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      left: 50%;
+      width: 50%;
+      border-left-color: #ff5555;
+      border-top-color: #f1f2f3;
+      border-radius: 1.5rem;
+      text-align: center;
     }
   }
