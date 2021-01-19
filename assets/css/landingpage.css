@@ -102,7 +102,7 @@ body{
 @media (max-width: 880px) 
 {
     .count-container h1{
-        font-size: 280%;
+        font-size: 250%;
         margin: 0px;
         padding: 0;
         top: 80%;
@@ -113,6 +113,21 @@ body{
         color: #ffee00!important;
         font-family: 'Creepster', cursive;
         letter-spacing: 0.05em;
+    }
+    .counterd{
+        min-width: 40px;
+        min-height: 40px;
+        margin: 10px 10px;
+        font-size: 10px;
+        overflow: hidden;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .counterd span{
+        display: block;
+        font-size: 20px;
+        margin-top: 14px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 700;
     }
 }
 
@@ -127,10 +142,10 @@ body{
     cursor: pointer; /* Pointer/hand icon */
     float: left; /* Float the buttons side by side */
     border: none; /* Prevents borders */
-    -webkit-transition: 500ms linear;
-    -moz-transition: 500ms linear;
-      -o-transition: 500ms linear;
-         transition: 500ms linear;
+    -webkit-transition: 300ms linear;
+    -moz-transition: 300ms linear;
+      -o-transition: 300ms linear;
+         transition: 300ms linear;
     font-family: 'Titillium Web', sans-serif;
     font-size: 150%;
     border-right:1px solid #fff;
@@ -157,12 +172,12 @@ background-color: #de59e2ad;
         cursor: pointer; /* Pointer/hand icon */
         float: left; /* Float the buttons side by side */
         border: none; /* Prevents borders */
-        -webkit-transition: 500ms linear;
-        -moz-transition: 500ms linear;
-          -o-transition: 500ms linear;
-             transition: 500ms linear;
+        -webkit-transition: 300ms linear;
+        -moz-transition: 300ms linear;
+          -o-transition: 300ms linear;
+             transition: 300ms linear;
         font-family: 'Titillium Web', sans-serif;
-        font-size: 100%;
+        font-size: 90%;
         border-right:1px solid #fff;
 
     }
