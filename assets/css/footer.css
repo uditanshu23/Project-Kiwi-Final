@@ -10,7 +10,7 @@ footer{
 	text-align: left;
 	font: bold 16px sans-serif;
  
-	padding: 55px 50px;
+	padding:  50px;
 	margin-top: 80px;
 }
  
@@ -150,18 +150,17 @@ footer{
 }
 .social {
     
-    float: left;
+   
     list-style: none;
-    padding: 15px 10px;
+    
     position: relative;
     text-align: center;
-    margin: 20px;
+    
     display:flex;
     flex-direction: row;
-	justify-content: space-between;
-	right: 16%;
+    justify-content: center;
+	
   }
-  
   .social li:first-child {
     margin-top: 0
   }
